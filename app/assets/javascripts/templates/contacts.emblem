@@ -1,0 +1,13 @@
+.row
+  h3 Here some contacts yo
+
+  linkTo 'contacts.new' | New Contact
+
+  each model
+    li
+      linkTo 'contacts.show' this
+        = first
+        br
+        button{action 'delete' this} X
+
+  outlet

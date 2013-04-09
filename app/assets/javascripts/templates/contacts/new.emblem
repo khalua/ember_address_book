@@ -1,0 +1,7 @@
+.row
+  Ember.TextField valueBinding='first'
+  Ember.TextField valueBinding='last'
+  Ember.TextField valueBinding='date'
+  Ember.TextField valueBinding='phone'
+  Ember.TextField valueBinding='email'
+  button{action 'save'} Save

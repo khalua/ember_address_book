@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "/assets/source_maps/app/assets/javascripts/controllers/contacts_controller.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;CAAA,CAAA,CAAG,EAA2B,CAAL,SAAqB,GAA9C;CACE,CAAQ,CAAA,CAAR,GAAQ,CAAR,CAAS;CACP,GAAC,EAAD,CAAA,KAAA;CAAA,KACA,CAAO,KAAP;CADA,EAEA,CAAC,EAAD,CAAA;CACC,GAAA,SAAD,GAAA,CAAA;CAJF,IAAQ;CADV,GAAyB;CAAzB"
+}

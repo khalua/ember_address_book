@@ -1,0 +1,15 @@
+.row
+  if isEditing
+    button{action 'save'} Done
+    Ember.TextField valueBinding='first'
+    Ember.TextField valueBinding='last'
+    Ember.TextField valueBinding='date'
+    Ember.TextField valueBinding='phone'
+    Ember.TextField valueBinding='email'
+  else
+    button{action 'edit'} Edit
+    p = first
+    p = last
+    p = dob
+    p = phone
+    p = email

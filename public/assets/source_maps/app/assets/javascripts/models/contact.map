@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "file": "",
+  "sourceRoot": "",
+  "sources": [
+    "/assets/source_maps/app/assets/javascripts/models/contact.coffee"
+  ],
+  "names": [],
+  "mappings": "AAAA;CAAA,CAAA,CAAG,EAAmB,CAAR,CAAd;CACE,CAAQ,EAAR,CAAA,GAAQ;CAAR,CACO,EAAP,IAAO;CADP,CAEM,CAAN,CAAA,EAAM;CAFN,CAGQ,EAAR,CAAA,GAAQ;CAHR,CAIQ,EAAR,CAAA,GAAQ;CALV,GAAc;CAAd"
+}

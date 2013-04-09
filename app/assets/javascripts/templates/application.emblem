@@ -1,0 +1,13 @@
+.navbar
+  .navbar-inner
+    ul.nav
+      li
+        linkTo 'index' | Home
+      li
+        linkTo 'about' | About
+      li
+        linkTo 'faq' | FAQ
+      li
+        linkTo 'contacts' | Contacts
+
+outlet
