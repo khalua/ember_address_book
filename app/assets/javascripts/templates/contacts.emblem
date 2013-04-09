@@ -1,13 +1,30 @@
-.row
-  h3 Here some contacts yo
+.row-fluid
+  .span2
+  .span10
+    h3 Here some contacts yo
 
-  linkTo 'contacts.new' | New Contact
+    linkTo 'contacts.new' class='btn' | New Contact
 
-  each model
-    li
-      linkTo 'contacts.show' this
-        = first
-        br
-        button{action 'delete' this} X
+    table.table
+      thead
+        tr
+          th First
+          th Last
+          th DOB
+          th Phone
+          th Email
+          th Delete
 
-  outlet
+      tbody
+      each model
+        tr
+          td= linkTo 'contacts.show' this
+            first
+          td= last
+          td= date dob
+          td= phone
+          td= email
+          td
+            button{action 'delete' this} class='btn btn-mini btn-danger' X
+
+    outlet
